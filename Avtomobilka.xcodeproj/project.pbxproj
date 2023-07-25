@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7A3F1C62A6F8C9700882680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1C52A6F8C9700882680 /* AppDelegate.swift */; };
+		E7A3F1C82A6F8C9700882680 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1C72A6F8C9700882680 /* SceneDelegate.swift */; };
+		E7A3F1CA2A6F8C9700882680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1C92A6F8C9700882680 /* ViewController.swift */; };
+		E7A3F1CD2A6F8C9700882680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A3F1CB2A6F8C9700882680 /* Main.storyboard */; };
+		E7A3F1CF2A6F8C9900882680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A3F1CE2A6F8C9900882680 /* Assets.xcassets */; };
+		E7A3F1D22A6F8C9900882680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A3F1D02A6F8C9900882680 /* LaunchScreen.storyboard */; };
+		E7A3F1DD2A6F8C9A00882680 /* AvtomobilkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1DC2A6F8C9A00882680 /* AvtomobilkaTests.swift */; };
+		E7A3F1E72A6F8C9A00882680 /* AvtomobilkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1E62A6F8C9A00882680 /* AvtomobilkaUITests.swift */; };
+		E7A3F1E92A6F8C9A00882680 /* AvtomobilkaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1E82A6F8C9A00882680 /* AvtomobilkaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7A3F1D92A6F8C9A00882680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7A3F1BA2A6F8C9700882680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7A3F1C12A6F8C9700882680;
+			remoteInfo = Avtomobilka;
+		};
+		E7A3F1E32A6F8C9A00882680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7A3F1BA2A6F8C9700882680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7A3F1C12A6F8C9700882680;
+			remoteInfo = Avtomobilka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7A3F1C22A6F8C9700882680 /* Avtomobilka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avtomobilka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A3F1C52A6F8C9700882680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7A3F1C72A6F8C9700882680 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E7A3F1C92A6F8C9700882680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7A3F1CC2A6F8C9700882680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7A3F1CE2A6F8C9900882680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7A3F1D12A6F8C9900882680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7A3F1D32A6F8C9900882680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A3F1D82A6F8C9A00882680 /* AvtomobilkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvtomobilkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A3F1DC2A6F8C9A00882680 /* AvtomobilkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvtomobilkaTests.swift; sourceTree = "<group>"; };
+		E7A3F1E22A6F8C9A00882680 /* AvtomobilkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvtomobilkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A3F1E62A6F8C9A00882680 /* AvtomobilkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvtomobilkaUITests.swift; sourceTree = "<group>"; };
+		E7A3F1E82A6F8C9A00882680 /* AvtomobilkaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvtomobilkaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7A3F1BF2A6F8C9700882680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A3F1D52A6F8C9A00882680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A3F1DF2A6F8C9A00882680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7A3F1B92A6F8C9700882680 = {
+			isa = PBXGroup;
+			children = (
+				E7A3F1C42A6F8C9700882680 /* Avtomobilka */,
+				E7A3F1DB2A6F8C9A00882680 /* AvtomobilkaTests */,
+				E7A3F1E52A6F8C9A00882680 /* AvtomobilkaUITests */,
+				E7A3F1C32A6F8C9700882680 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7A3F1C32A6F8C9700882680 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7A3F1C22A6F8C9700882680 /* Avtomobilka.app */,
+				E7A3F1D82A6F8C9A00882680 /* AvtomobilkaTests.xctest */,
+				E7A3F1E22A6F8C9A00882680 /* AvtomobilkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7A3F1C42A6F8C9700882680 /* Avtomobilka */ = {
+			isa = PBXGroup;
+			children = (
+				E7A3F1C52A6F8C9700882680 /* AppDelegate.swift */,
+				E7A3F1C72A6F8C9700882680 /* SceneDelegate.swift */,
+				E7A3F1C92A6F8C9700882680 /* ViewController.swift */,
+				E7A3F1CB2A6F8C9700882680 /* Main.storyboard */,
+				E7A3F1CE2A6F8C9900882680 /* Assets.xcassets */,
+				E7A3F1D02A6F8C9900882680 /* LaunchScreen.storyboard */,
+				E7A3F1D32A6F8C9900882680 /* Info.plist */,
+			);
+			path = Avtomobilka;
+			sourceTree = "<group>";
+		};
+		E7A3F1DB2A6F8C9A00882680 /* AvtomobilkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7A3F1DC2A6F8C9A00882680 /* AvtomobilkaTests.swift */,
+			);
+			path = AvtomobilkaTests;
+			sourceTree = "<group>";
+		};
+		E7A3F1E52A6F8C9A00882680 /* AvtomobilkaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7A3F1E62A6F8C9A00882680 /* AvtomobilkaUITests.swift */,
+				E7A3F1E82A6F8C9A00882680 /* AvtomobilkaUITestsLaunchTests.swift */,
+			);
+			path = AvtomobilkaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7A3F1C12A6F8C9700882680 /* Avtomobilka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7A3F1EC2A6F8C9A00882680 /* Build configuration list for PBXNativeTarget "Avtomobilka" */;
+			buildPhases = (
+				E7A3F1BE2A6F8C9700882680 /* Sources */,
+				E7A3F1BF2A6F8C9700882680 /* Frameworks */,
+				E7A3F1C02A6F8C9700882680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Avtomobilka;
+			productName = Avtomobilka;
+			productReference = E7A3F1C22A6F8C9700882680 /* Avtomobilka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7A3F1D72A6F8C9A00882680 /* AvtomobilkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7A3F1EF2A6F8C9A00882680 /* Build configuration list for PBXNativeTarget "AvtomobilkaTests" */;
+			buildPhases = (
+				E7A3F1D42A6F8C9A00882680 /* Sources */,
+				E7A3F1D52A6F8C9A00882680 /* Frameworks */,
+				E7A3F1D62A6F8C9A00882680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7A3F1DA2A6F8C9A00882680 /* PBXTargetDependency */,
+			);
+			name = AvtomobilkaTests;
+			productName = AvtomobilkaTests;
+			productReference = E7A3F1D82A6F8C9A00882680 /* AvtomobilkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7A3F1E12A6F8C9A00882680 /* AvtomobilkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7A3F1F22A6F8C9A00882680 /* Build configuration list for PBXNativeTarget "AvtomobilkaUITests" */;
+			buildPhases = (
+				E7A3F1DE2A6F8C9A00882680 /* Sources */,
+				E7A3F1DF2A6F8C9A00882680 /* Frameworks */,
+				E7A3F1E02A6F8C9A00882680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7A3F1E42A6F8C9A00882680 /* PBXTargetDependency */,
+			);
+			name = AvtomobilkaUITests;
+			productName = AvtomobilkaUITests;
+			productReference = E7A3F1E22A6F8C9A00882680 /* AvtomobilkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7A3F1BA2A6F8C9700882680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E7A3F1C12A6F8C9700882680 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E7A3F1D72A6F8C9A00882680 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E7A3F1C12A6F8C9700882680;
+					};
+					E7A3F1E12A6F8C9A00882680 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E7A3F1C12A6F8C9700882680;
+					};
+				};
+			};
+			buildConfigurationList = E7A3F1BD2A6F8C9700882680 /* Build configuration list for PBXProject "Avtomobilka" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7A3F1B92A6F8C9700882680;
+			productRefGroup = E7A3F1C32A6F8C9700882680 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7A3F1C12A6F8C9700882680 /* Avtomobilka */,
+				E7A3F1D72A6F8C9A00882680 /* AvtomobilkaTests */,
+				E7A3F1E12A6F8C9A00882680 /* AvtomobilkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7A3F1C02A6F8C9700882680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A3F1D22A6F8C9900882680 /* LaunchScreen.storyboard in Resources */,
+				E7A3F1CF2A6F8C9900882680 /* Assets.xcassets in Resources */,
+				E7A3F1CD2A6F8C9700882680 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A3F1D62A6F8C9A00882680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A3F1E02A6F8C9A00882680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7A3F1BE2A6F8C9700882680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A3F1CA2A6F8C9700882680 /* ViewController.swift in Sources */,
+				E7A3F1C62A6F8C9700882680 /* AppDelegate.swift in Sources */,
+				E7A3F1C82A6F8C9700882680 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A3F1D42A6F8C9A00882680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A3F1DD2A6F8C9A00882680 /* AvtomobilkaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A3F1DE2A6F8C9A00882680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A3F1E92A6F8C9A00882680 /* AvtomobilkaUITestsLaunchTests.swift in Sources */,
+				E7A3F1E72A6F8C9A00882680 /* AvtomobilkaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7A3F1DA2A6F8C9A00882680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7A3F1C12A6F8C9700882680 /* Avtomobilka */;
+			targetProxy = E7A3F1D92A6F8C9A00882680 /* PBXContainerItemProxy */;
+		};
+		E7A3F1E42A6F8C9A00882680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7A3F1C12A6F8C9700882680 /* Avtomobilka */;
+			targetProxy = E7A3F1E32A6F8C9A00882680 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7A3F1CB2A6F8C9700882680 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7A3F1CC2A6F8C9700882680 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7A3F1D02A6F8C9900882680 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7A3F1D12A6F8C9900882680 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7A3F1EA2A6F8C9A00882680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7A3F1EB2A6F8C9A00882680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7A3F1ED2A6F8C9A00882680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22L3686JQV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Avtomobilka/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.vvaskin.Avtomobilka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7A3F1EE2A6F8C9A00882680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22L3686JQV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Avtomobilka/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.vvaskin.Avtomobilka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7A3F1F02A6F8C9A00882680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22L3686JQV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.vvaskin.AvtomobilkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avtomobilka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Avtomobilka";
+			};
+			name = Debug;
+		};
+		E7A3F1F12A6F8C9A00882680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22L3686JQV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.vvaskin.AvtomobilkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avtomobilka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Avtomobilka";
+			};
+			name = Release;
+		};
+		E7A3F1F32A6F8C9A00882680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22L3686JQV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.vvaskin.AvtomobilkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Avtomobilka;
+			};
+			name = Debug;
+		};
+		E7A3F1F42A6F8C9A00882680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22L3686JQV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.vvaskin.AvtomobilkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Avtomobilka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7A3F1BD2A6F8C9700882680 /* Build configuration list for PBXProject "Avtomobilka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A3F1EA2A6F8C9A00882680 /* Debug */,
+				E7A3F1EB2A6F8C9A00882680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7A3F1EC2A6F8C9A00882680 /* Build configuration list for PBXNativeTarget "Avtomobilka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A3F1ED2A6F8C9A00882680 /* Debug */,
+				E7A3F1EE2A6F8C9A00882680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7A3F1EF2A6F8C9A00882680 /* Build configuration list for PBXNativeTarget "AvtomobilkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A3F1F02A6F8C9A00882680 /* Debug */,
+				E7A3F1F12A6F8C9A00882680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7A3F1F22A6F8C9A00882680 /* Build configuration list for PBXNativeTarget "AvtomobilkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A3F1F32A6F8C9A00882680 /* Debug */,
+				E7A3F1F42A6F8C9A00882680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7A3F1BA2A6F8C9700882680 /* Project object */;
+}
