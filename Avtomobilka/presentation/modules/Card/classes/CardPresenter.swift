@@ -37,14 +37,14 @@ extension CardPresenter: CardViewOutput {
 // MARK:- <CardInteractorOutput>
 extension CardPresenter: CardInteractorOutput {
     func updateCard(card: CardItem) {
-        DispatchQueue.main.async {
-            self.view.updateCard(card: card)
+        DispatchQueue.main.async { [weak self] in
+            self?.view.updateCard(card: card)
         }
     }
     
     func updatePots(posts: [PostItem]) {
-        DispatchQueue.main.async {
-            self.view.updatePots(posts: posts)
+        DispatchQueue.main.async { [weak self] in
+            self?.view.updatePots(posts: posts)
         }
     }
 }
