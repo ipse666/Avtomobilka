@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2D24B548-8877-468B-943F-24E39B2E1B23"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69346A1D-0651-4EA3-B4CA-245EC5567B30"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Avtomobilka/presentation/modules/Card/classes/CardViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "updateCard(card:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAF18657-9408-41BB-9171-F6EE63C348D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Avtomobilka/presentation/modules/Card/classes/CardViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "updatePots(posts:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12D8C9E4-5F00-449B-97E0-CE3CE492B470"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Avtomobilka/business/services/network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "carPosts(carId:page:response:errorResponse:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "12D8C9E4-5F00-449B-97E0-CE3CE492B470 - 5a7a06de50699030"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Moya.Response) -&gt; () in Avtomobilka.NetworkService.carPosts(carId: Swift.Int, page: Swift.Int, response: (Swift.Array&lt;Avtomobilka.PostItem&gt;) -&gt; (), errorResponse: (Avtomobilka.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Avtomobilka"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/src/MyProjects/Avtomobilka/Avtomobilka/business/services/network/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "12D8C9E4-5F00-449B-97E0-CE3CE492B470 - 5a7a06de50699030"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Moya.Response) -&gt; () in Avtomobilka.NetworkService.carPosts(carId: Swift.Int, page: Swift.Int, response: (Swift.Array&lt;Avtomobilka.PostItem&gt;) -&gt; (), errorResponse: (Avtomobilka.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Avtomobilka"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/src/MyProjects/Avtomobilka/Avtomobilka/business/services/network/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "259">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D41FAA44-E79A-43B9-8DC7-0ADE43709372"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Avtomobilka/business/services/network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "carPosts(carId:page:response:errorResponse:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D41FAA44-E79A-43B9-8DC7-0ADE43709372 - 5a7a06de506993d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Moya.Response) -&gt; () in Avtomobilka.NetworkService.carPosts(carId: Swift.Int, page: Swift.Int, response: (Swift.Array&lt;Avtomobilka.PostItem&gt;) -&gt; (), errorResponse: (Avtomobilka.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Avtomobilka"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/src/MyProjects/Avtomobilka/Avtomobilka/business/services/network/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "405">
+               </Location>
+               <Location
+                  uuid = "D41FAA44-E79A-43B9-8DC7-0ADE43709372 - 5a7a06de506993d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Moya.Response) -&gt; () in Avtomobilka.NetworkService.carPosts(carId: Swift.Int, page: Swift.Int, response: (Swift.Array&lt;Avtomobilka.PostItem&gt;) -&gt; (), errorResponse: (Avtomobilka.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Avtomobilka"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/src/MyProjects/Avtomobilka/Avtomobilka/business/services/network/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FACFF4CF-BEEB-46C3-8F87-C833BDE2E7FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Avtomobilka/business/services/network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "carPosts(carId:page:response:errorResponse:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FACFF4CF-BEEB-46C3-8F87-C833BDE2E7FE - 5a7a06de506993f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Moya.Response) -&gt; () in Avtomobilka.NetworkService.carPosts(carId: Swift.Int, page: Swift.Int, response: (Swift.Array&lt;Avtomobilka.PostItem&gt;) -&gt; (), errorResponse: (Avtomobilka.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Avtomobilka"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/src/MyProjects/Avtomobilka/Avtomobilka/business/services/network/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "FACFF4CF-BEEB-46C3-8F87-C833BDE2E7FE - 5a7a06de506993f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Moya.Response) -&gt; () in Avtomobilka.NetworkService.carPosts(carId: Swift.Int, page: Swift.Int, response: (Swift.Array&lt;Avtomobilka.PostItem&gt;) -&gt; (), errorResponse: (Avtomobilka.NetworkError) -&gt; ()) -&gt; ()"
+                  moduleName = "Avtomobilka"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimir/src/MyProjects/Avtomobilka/Avtomobilka/business/services/network/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "472">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

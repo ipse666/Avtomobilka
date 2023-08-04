@@ -1,0 +1,22 @@
+# Template information section
+name: "mn_viper"
+summary: "Swift VIPER модуль"
+author: "Vladimir Vaskin"
+version: "0.0.1"
+license: "MIT"
+
+# The declarations for code files
+
+code_files:
+# ui
+- {name: ui/.storyboard, path: Code/UI/storyboard.storyboard.liquid}
+
+# classes
+- {name: classes/ViewController.swift, path: Code/Classes/viewcontroller.swift.liquid}
+- {name: classes/Presenter.swift, path: Code/Classes/presenter.swift.liquid}
+- {name: classes/Interactor.swift, path: Code/Classes/interactor.swift.liquid}
+- {name: classes/Router.swift, path: Code/Classes/router.swift.liquid}
+- {name: classes/Builder.swift, path: Code/Classes/builder.swift.liquid}
+
+# protocol
+- {name: protocols/Protocols.swift,  path: Code/Protocols/protocols.swift.liquid}

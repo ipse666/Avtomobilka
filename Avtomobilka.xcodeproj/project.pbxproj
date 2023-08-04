@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21461366F8532032CCD19713 /* CarsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB7BE0A6A0EA1A1EEE4EB42 /* CarsInteractor.swift */; };
+		29FD3D6603EDBEFE9FA42EB1 /* CarsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF93678975630DD4E1A1AC03 /* CarsRouter.swift */; };
+		2D3C2164B00393BBDFE2C5B1 /* CardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09402DDDB8851788829BB4 /* CardInteractor.swift */; };
+		2EB67F9B59DCF951300CF3C3 /* CardBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DB5D354FA8D33B77542AAB /* CardBuilder.swift */; };
+		327B870C28BFE8ECAF6CA779 /* CardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EF9B767619BC5975F5FA5 /* CardRouter.swift */; };
+		653AD68F8D638F13AA0AC0CB /* Card.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE04D50C2D3CC5877E6E5B8C /* Card.storyboard */; };
+		72BC2B5A57FD0CA6B5D276DB /* CarsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92EDFECEF2982B464289446 /* CarsPresenter.swift */; };
+		743DAC359AFE7C868E3B5C44 /* CarsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5A4E4449BF66DEF2BBAE2 /* CarsBuilder.swift */; };
+		8ADA0C455B35ABBF8E87EAFF /* CarsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68D885DBA2B340A297A8B3A /* CarsProtocols.swift */; };
+		8F2F3FB0046C00F5B61AE2C5 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA02F9CB5D24D62D3FFD1BD /* CardViewController.swift */; };
+		9FB94DF5279BE174F8C49B05 /* Cars.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9850D890D524E7A6EB50E574 /* Cars.storyboard */; };
+		DB1842C515189C098324CB35 /* CardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350FADCF6B0BD60A56ACF6F3 /* CardPresenter.swift */; };
+		E757A9C02A7D0F620046C402 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E757A9BF2A7D0F620046C402 /* ShadowView.swift */; };
 		E7A3F1C62A6F8C9700882680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1C52A6F8C9700882680 /* AppDelegate.swift */; };
 		E7A3F1C82A6F8C9700882680 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1C72A6F8C9700882680 /* SceneDelegate.swift */; };
 		E7A3F1CA2A6F8C9700882680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1C92A6F8C9700882680 /* ViewController.swift */; };
@@ -16,6 +29,21 @@
 		E7A3F1DD2A6F8C9A00882680 /* AvtomobilkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1DC2A6F8C9A00882680 /* AvtomobilkaTests.swift */; };
 		E7A3F1E72A6F8C9A00882680 /* AvtomobilkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1E62A6F8C9A00882680 /* AvtomobilkaUITests.swift */; };
 		E7A3F1E92A6F8C9A00882680 /* AvtomobilkaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1E82A6F8C9A00882680 /* AvtomobilkaUITestsLaunchTests.swift */; };
+		E7A3F1F92A6FAF0F00882680 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1F82A6FAF0F00882680 /* APIService.swift */; };
+		E7A3F1FC2A6FB0F600882680 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = E7A3F1FB2A6FB0F600882680 /* Moya */; };
+		E7A3F2052A71176300882680 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F2042A71176300882680 /* NetworkService.swift */; };
+		E7A3F20B2A711CF200882680 /* CarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F20A2A711CF200882680 /* CarItem.swift */; };
+		E7A3F20D2A711D0A00882680 /* PostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F20C2A711D0A00882680 /* PostItem.swift */; };
+		E7A3F2102A75437500882680 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F20F2A75437500882680 /* BaseRouter.swift */; };
+		E7A3F2122A75526200882680 /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F2112A75526200882680 /* UINavigationControllerExtension.swift */; };
+		E7A3F2152A755D8700882680 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F2142A755D8700882680 /* CarCell.swift */; };
+		E7A3F21A2A77468500882680 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E7A3F2192A77468500882680 /* Kingfisher */; };
+		E7A3F21C2A777D2500882680 /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F21B2A777D2500882680 /* UserItem.swift */; };
+		E7A3F21E2A777E7C00882680 /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F21D2A777E7C00882680 /* CardItem.swift */; };
+		E7A3F2222A78845500882680 /* CardCarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F2212A78845500882680 /* CardCarCell.swift */; };
+		E7A3F2242A78847500882680 /* CardPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F2232A78847500882680 /* CardPostCell.swift */; };
+		F42FC18045A6025F8C2C14D2 /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6516BE1B3955B4FFA260527 /* CarsViewController.swift */; };
+		FBE61298B505B19031D78578 /* CardProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85778784E4E4572E58BF562A /* CardProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +64,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		171EF9B767619BC5975F5FA5 /* CardRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardRouter.swift; sourceTree = "<group>"; };
+		2DA02F9CB5D24D62D3FFD1BD /* CardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		350FADCF6B0BD60A56ACF6F3 /* CardPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardPresenter.swift; sourceTree = "<group>"; };
+		3C09402DDDB8851788829BB4 /* CardInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardInteractor.swift; sourceTree = "<group>"; };
+		44F5A4E4449BF66DEF2BBAE2 /* CarsBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CarsBuilder.swift; sourceTree = "<group>"; };
+		49DB5D354FA8D33B77542AAB /* CardBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardBuilder.swift; sourceTree = "<group>"; };
+		85778784E4E4572E58BF562A /* CardProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardProtocols.swift; sourceTree = "<group>"; };
+		8FB7BE0A6A0EA1A1EEE4EB42 /* CarsInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CarsInteractor.swift; sourceTree = "<group>"; };
+		9850D890D524E7A6EB50E574 /* Cars.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Cars.storyboard; sourceTree = "<group>"; };
+		B6516BE1B3955B4FFA260527 /* CarsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CarsViewController.swift; sourceTree = "<group>"; };
+		B92EDFECEF2982B464289446 /* CarsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CarsPresenter.swift; sourceTree = "<group>"; };
+		C68D885DBA2B340A297A8B3A /* CarsProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CarsProtocols.swift; sourceTree = "<group>"; };
+		CF93678975630DD4E1A1AC03 /* CarsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CarsRouter.swift; sourceTree = "<group>"; };
+		E757A9BF2A7D0F620046C402 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		E7A3F1C22A6F8C9700882680 /* Avtomobilka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avtomobilka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A3F1C52A6F8C9700882680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7A3F1C72A6F8C9700882680 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +91,18 @@
 		E7A3F1E22A6F8C9A00882680 /* AvtomobilkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvtomobilkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A3F1E62A6F8C9A00882680 /* AvtomobilkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvtomobilkaUITests.swift; sourceTree = "<group>"; };
 		E7A3F1E82A6F8C9A00882680 /* AvtomobilkaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvtomobilkaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7A3F1F82A6FAF0F00882680 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		E7A3F2042A71176300882680 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E7A3F20A2A711CF200882680 /* CarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarItem.swift; sourceTree = "<group>"; };
+		E7A3F20C2A711D0A00882680 /* PostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItem.swift; sourceTree = "<group>"; };
+		E7A3F20F2A75437500882680 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		E7A3F2112A75526200882680 /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		E7A3F2142A755D8700882680 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		E7A3F21B2A777D2500882680 /* UserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
+		E7A3F21D2A777E7C00882680 /* CardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
+		E7A3F2212A78845500882680 /* CardCarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCarCell.swift; sourceTree = "<group>"; };
+		E7A3F2232A78847500882680 /* CardPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPostCell.swift; sourceTree = "<group>"; };
+		FE04D50C2D3CC5877E6E5B8C /* Card.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Card.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +110,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A3F21A2A77468500882680 /* Kingfisher in Frameworks */,
+				E7A3F1FC2A6FB0F600882680 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +132,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1080BF4F0DB658702FFA84FE /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				46B8EDB752818B1235EB86ED /* Cars */,
+				5001C9D9B11D07B5B5825639 /* Card */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		45F3EB323E56896B346FFA87 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				85778784E4E4572E58BF562A /* CardProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		46B8EDB752818B1235EB86ED /* Cars */ = {
+			isa = PBXGroup;
+			children = (
+				9E9B6B6AB8FAA079A6D31DE7 /* ui */,
+				5CF70F83B817056E1EB7FE01 /* classes */,
+				D0A5BF10C7099794A64F3DC0 /* protocols */,
+			);
+			path = Cars;
+			sourceTree = "<group>";
+		};
+		5001C9D9B11D07B5B5825639 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				EEC603851B13FEAEADF726FA /* ui */,
+				92946AEAD310CB5BFABCFCFB /* classes */,
+				45F3EB323E56896B346FFA87 /* protocols */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		5CF70F83B817056E1EB7FE01 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				E7A3F2132A755CC900882680 /* cells */,
+				B6516BE1B3955B4FFA260527 /* CarsViewController.swift */,
+				B92EDFECEF2982B464289446 /* CarsPresenter.swift */,
+				8FB7BE0A6A0EA1A1EEE4EB42 /* CarsInteractor.swift */,
+				CF93678975630DD4E1A1AC03 /* CarsRouter.swift */,
+				44F5A4E4449BF66DEF2BBAE2 /* CarsBuilder.swift */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		92946AEAD310CB5BFABCFCFB /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				E7A3F2202A78843000882680 /* cells */,
+				2DA02F9CB5D24D62D3FFD1BD /* CardViewController.swift */,
+				350FADCF6B0BD60A56ACF6F3 /* CardPresenter.swift */,
+				3C09402DDDB8851788829BB4 /* CardInteractor.swift */,
+				171EF9B767619BC5975F5FA5 /* CardRouter.swift */,
+				49DB5D354FA8D33B77542AAB /* CardBuilder.swift */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		9E9B6B6AB8FAA079A6D31DE7 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				9850D890D524E7A6EB50E574 /* Cars.storyboard */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		9FFD3BD5738C63942924122E /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1080BF4F0DB658702FFA84FE /* modules */,
+				E7A3F20E2A75431D00882680 /* common */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		D0A5BF10C7099794A64F3DC0 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C68D885DBA2B340A297A8B3A /* CarsProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
 		E7A3F1B92A6F8C9700882680 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +243,8 @@
 		E7A3F1C42A6F8C9700882680 /* Avtomobilka */ = {
 			isa = PBXGroup;
 			children = (
+				9FFD3BD5738C63942924122E /* presentation */,
+				E7A3F1F52A6F9D9400882680 /* business */,
 				E7A3F1C52A6F8C9700882680 /* AppDelegate.swift */,
 				E7A3F1C72A6F8C9700882680 /* SceneDelegate.swift */,
 				E7A3F1C92A6F8C9700882680 /* ViewController.swift */,
@@ -127,6 +273,78 @@
 			path = AvtomobilkaUITests;
 			sourceTree = "<group>";
 		};
+		E7A3F1F52A6F9D9400882680 /* business */ = {
+			isa = PBXGroup;
+			children = (
+				E7A3F1FD2A71121B00882680 /* models */,
+				E7A3F1F62A6F9D9F00882680 /* services */,
+			);
+			path = business;
+			sourceTree = "<group>";
+		};
+		E7A3F1F62A6F9D9F00882680 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				E7A3F1F72A6FAEEC00882680 /* network */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		E7A3F1F72A6FAEEC00882680 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				E7A3F2042A71176300882680 /* NetworkService.swift */,
+				E7A3F1F82A6FAF0F00882680 /* APIService.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		E7A3F1FD2A71121B00882680 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E7A3F20A2A711CF200882680 /* CarItem.swift */,
+				E7A3F21B2A777D2500882680 /* UserItem.swift */,
+				E7A3F21D2A777E7C00882680 /* CardItem.swift */,
+				E7A3F20C2A711D0A00882680 /* PostItem.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		E7A3F20E2A75431D00882680 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				E7A3F20F2A75437500882680 /* BaseRouter.swift */,
+				E7A3F2112A75526200882680 /* UINavigationControllerExtension.swift */,
+				E757A9BF2A7D0F620046C402 /* ShadowView.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		E7A3F2132A755CC900882680 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				E7A3F2142A755D8700882680 /* CarCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		E7A3F2202A78843000882680 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				E7A3F2212A78845500882680 /* CardCarCell.swift */,
+				E7A3F2232A78847500882680 /* CardPostCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		EEC603851B13FEAEADF726FA /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				FE04D50C2D3CC5877E6E5B8C /* Card.storyboard */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +361,10 @@
 			dependencies = (
 			);
 			name = Avtomobilka;
+			packageProductDependencies = (
+				E7A3F1FB2A6FB0F600882680 /* Moya */,
+				E7A3F2192A77468500882680 /* Kingfisher */,
+			);
 			productName = Avtomobilka;
 			productReference = E7A3F1C22A6F8C9700882680 /* Avtomobilka.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +437,10 @@
 				Base,
 			);
 			mainGroup = E7A3F1B92A6F8C9700882680;
+			packageReferences = (
+				E7A3F1FA2A6FB0F500882680 /* XCRemoteSwiftPackageReference "Moya" */,
+				E7A3F2182A77468400882680 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = E7A3F1C32A6F8C9700882680 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +460,8 @@
 				E7A3F1D22A6F8C9900882680 /* LaunchScreen.storyboard in Resources */,
 				E7A3F1CF2A6F8C9900882680 /* Assets.xcassets in Resources */,
 				E7A3F1CD2A6F8C9700882680 /* Main.storyboard in Resources */,
+				9FB94DF5279BE174F8C49B05 /* Cars.storyboard in Resources */,
+				653AD68F8D638F13AA0AC0CB /* Card.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +489,30 @@
 				E7A3F1CA2A6F8C9700882680 /* ViewController.swift in Sources */,
 				E7A3F1C62A6F8C9700882680 /* AppDelegate.swift in Sources */,
 				E7A3F1C82A6F8C9700882680 /* SceneDelegate.swift in Sources */,
+				F42FC18045A6025F8C2C14D2 /* CarsViewController.swift in Sources */,
+				E7A3F2122A75526200882680 /* UINavigationControllerExtension.swift in Sources */,
+				E7A3F21E2A777E7C00882680 /* CardItem.swift in Sources */,
+				E7A3F2222A78845500882680 /* CardCarCell.swift in Sources */,
+				E7A3F2052A71176300882680 /* NetworkService.swift in Sources */,
+				72BC2B5A57FD0CA6B5D276DB /* CarsPresenter.swift in Sources */,
+				21461366F8532032CCD19713 /* CarsInteractor.swift in Sources */,
+				E7A3F1F92A6FAF0F00882680 /* APIService.swift in Sources */,
+				29FD3D6603EDBEFE9FA42EB1 /* CarsRouter.swift in Sources */,
+				E7A3F21C2A777D2500882680 /* UserItem.swift in Sources */,
+				E7A3F2102A75437500882680 /* BaseRouter.swift in Sources */,
+				743DAC359AFE7C868E3B5C44 /* CarsBuilder.swift in Sources */,
+				E7A3F20D2A711D0A00882680 /* PostItem.swift in Sources */,
+				8ADA0C455B35ABBF8E87EAFF /* CarsProtocols.swift in Sources */,
+				E7A3F2152A755D8700882680 /* CarCell.swift in Sources */,
+				E7A3F20B2A711CF200882680 /* CarItem.swift in Sources */,
+				E757A9C02A7D0F620046C402 /* ShadowView.swift in Sources */,
+				8F2F3FB0046C00F5B61AE2C5 /* CardViewController.swift in Sources */,
+				DB1842C515189C098324CB35 /* CardPresenter.swift in Sources */,
+				2D3C2164B00393BBDFE2C5B1 /* CardInteractor.swift in Sources */,
+				327B870C28BFE8ECAF6CA779 /* CardRouter.swift in Sources */,
+				E7A3F2242A78847500882680 /* CardPostCell.swift in Sources */,
+				2EB67F9B59DCF951300CF3C3 /* CardBuilder.swift in Sources */,
+				FBE61298B505B19031D78578 /* CardProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +854,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E7A3F1FA2A6FB0F500882680 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+		E7A3F2182A77468400882680 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E7A3F1FB2A6FB0F600882680 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7A3F1FA2A6FB0F500882680 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		E7A3F2192A77468500882680 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7A3F2182A77468400882680 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E7A3F1BA2A6F8C9700882680 /* Project object */;
 }

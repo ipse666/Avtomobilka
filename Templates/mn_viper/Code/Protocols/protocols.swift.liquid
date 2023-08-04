@@ -1,0 +1,34 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//
+
+import Foundation
+
+// MARK:- <View>
+protocol {{ module_info.name }}ViewInput: AnyObject {
+    func setupInitialState()
+}
+
+protocol {{ module_info.name }}ViewOutput {
+    func viewIsReady()
+    func backPressed(animated: Bool)
+}
+
+
+// MARK:- <Interactor>
+protocol {{ module_info.name }}InteractorInput {
+
+}
+
+protocol {{ module_info.name }}InteractorOutput: AnyObject {
+
+}
+
+
+// MARK:- <Router>
+protocol {{ module_info.name }}RouterInput: ClosableRouter  {
+
+}
