@@ -18,10 +18,10 @@ class CardBuilder {
         let presenter = CardPresenter()
         presenter.view = viewController
         presenter.router = router
-        presenter.carId = carId
 
         let interactor = CardInteractor()
         interactor.output = presenter
+        interactor.carId = carId
 
         presenter.interactor = interactor
         viewController.output = presenter

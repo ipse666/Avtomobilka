@@ -8,20 +8,16 @@
 import Foundation
 
 class CardPresenter {
-
     weak var view: CardViewInput!
     var interactor: CardInteractorInput!
     var router: CardRouterInput!
-    var carId: Int!
-    var page = 1
-    var recentPostsCount = 0
 }
 
 // MARK:- <CardViewOutput>
 extension CardPresenter: CardViewOutput {
     func viewIsReady() {
-        interactor.fetchCard(carId: carId)
-        interactor.fetchPosts(carId: carId, page: page)
+        interactor.fetchCard()
+        interactor.fetchPosts()
         view.setupInitialState()
     }
 
@@ -30,10 +26,7 @@ extension CardPresenter: CardViewOutput {
     }
     
     func nextPostItems() {
-        if recentPostsCount == Constants.Page.itemsCount {
-            page += 1
-            interactor.fetchPosts(carId: carId, page: page)
-        } 
+        interactor.nextPostItems()
     }
 }
 
@@ -44,7 +37,6 @@ extension CardPresenter: CardInteractorOutput {
     }
     
     func updatePots(posts: [PostItem]) {
-        recentPostsCount = posts.count
         view.updatePots(posts: posts)
     }
 }

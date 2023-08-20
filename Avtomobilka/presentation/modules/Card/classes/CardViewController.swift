@@ -94,7 +94,7 @@ extension CardViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         let lastIndex = self.posts.count - 1
-        if indexPath.section == 1 && indexPath.row == lastIndex && !loading {
+        if indexPath.row == lastIndex && !loading {
             loading = true
             output.nextPostItems()
         }

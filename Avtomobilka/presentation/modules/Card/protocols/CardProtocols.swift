@@ -23,8 +23,9 @@ protocol CardViewOutput {
 
 // MARK:- <Interactor>
 protocol CardInteractorInput {
-    func fetchCard(carId: Int)
-    func fetchPosts(carId: Int, page: Int)
+    func fetchCard()
+    func fetchPosts()
+    func nextPostItems()
 }
 
 protocol CardInteractorOutput: AnyObject {

@@ -14,7 +14,7 @@ import CombineMoya
 protocol NetworkRequestable {
     func cars(page: Int) -> AnyPublisher<[CarItem], MoyaError>
     func card(id: Int) -> AnyPublisher<CardItem, MoyaError>
-    func carPosts(carId: Int, page: Int) -> AnyPublisher<PostItems, MoyaError>
+    func carPosts(carId: Int, page: Int) -> AnyPublisher<[PostItem], MoyaError>
 }
 
 class NetworkService: NetworkRequestable {
@@ -39,8 +39,11 @@ class NetworkService: NetworkRequestable {
         return request(target: target).map(CardItem.self)
     }
     
-    func carPosts(carId: Int, page: Int) -> AnyPublisher<PostItems, MoyaError> {
+    func carPosts(carId: Int, page: Int) -> AnyPublisher<[PostItem], MoyaError> {
         let target: APIService = .carPosts(id: carId, items: Constants.Page.itemsCount, page: page)
-        return request(target: target).map(PostItems.self)
+        return request(target: target)
+            .map(PostItems.self)
+            .map{$0.posts}
+            .eraseToAnyPublisher()
     }
 }

@@ -23,7 +23,8 @@ protocol CarsViewOutput {
 
 // MARK:- <Interactor>
 protocol CarsInteractorInput {
-    func carItems(page: Int)
+    func carItems()
+    func nextCarItems()
 }
 
 protocol CarsInteractorOutput: AnyObject {

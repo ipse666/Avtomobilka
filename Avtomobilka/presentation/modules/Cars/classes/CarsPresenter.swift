@@ -12,14 +12,12 @@ class CarsPresenter {
     weak var view: CarsViewInput!
     var interactor: CarsInteractorInput!
     var router: CarsRouterInput!
-    var page = 1
-    var recentCarsCount = 0
 }
 
 // MARK:- <CarsViewOutput>
 extension CarsPresenter: CarsViewOutput {
     func viewIsReady() {
-        interactor.carItems(page: page)
+        interactor.carItems()
         view.setupInitialState()
     }
 
@@ -32,17 +30,13 @@ extension CarsPresenter: CarsViewOutput {
     }
     
     func nextCarItems() {
-        if recentCarsCount == Constants.Page.itemsCount {
-            page += 1
-            interactor.carItems(page: page)
-        }
+        interactor.nextCarItems()
     }
 }
 
 // MARK:- <CarsInteractorOutput>
 extension CarsPresenter: CarsInteractorOutput {
     func carItems(items: [CarItem]) {
-        recentCarsCount = items.count
         view.updateCars(items: items)
     }
 }

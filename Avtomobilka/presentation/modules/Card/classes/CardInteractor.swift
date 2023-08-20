@@ -9,11 +9,14 @@ import Combine
 
 class CardInteractor: CardInteractorInput {
     weak var output: CardInteractorOutput!
+    var carId: Int!
     private var subscriptionCard: AnyCancellable?
     private var subscriptionPosts: AnyCancellable?
+    private var page = 1
+    private var recentPostsCount = 0
 
     // MARK: <CardInteractorInput>
-    func fetchCard(carId: Int) {
+    func fetchCard() {
         subscriptionCard = NetworkService.shared.card(id: carId)
             .sink { completion in
                 switch completion {
@@ -28,7 +31,7 @@ class CardInteractor: CardInteractorInput {
             }
     }
     
-    func fetchPosts(carId: Int, page: Int) {
+    func fetchPosts() {
         subscriptionPosts = NetworkService.shared.carPosts(carId: carId, page: page)
             .sink { completion in
                 switch completion {
@@ -39,7 +42,15 @@ class CardInteractor: CardInteractorInput {
                 }
             } receiveValue: { [weak self] posts in
                 guard let self = self else { return }
-                output.updatePots(posts: posts.posts)
+                recentPostsCount = posts.count
+                output.updatePots(posts: posts)
             }
+    }
+    
+    func nextPostItems() {
+        if recentPostsCount == Constants.Page.itemsCount {
+            page += 1
+            fetchPosts()
+        }
     }
 }
