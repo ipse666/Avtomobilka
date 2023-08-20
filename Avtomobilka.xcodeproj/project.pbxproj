@@ -43,6 +43,7 @@
 		E7A3F2242A78847500882680 /* CardPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F2232A78847500882680 /* CardPostCell.swift */; };
 		E7CEDB152A92191E00AEA3F0 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = E7CEDB142A92191E00AEA3F0 /* CombineMoya */; };
 		E7CEDB172A92191E00AEA3F0 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = E7CEDB162A92191E00AEA3F0 /* Moya */; };
+		E7CEDB1A2A923CA000AEA3F0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CEDB192A923CA000AEA3F0 /* Constants.swift */; };
 		F42FC18045A6025F8C2C14D2 /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6516BE1B3955B4FFA260527 /* CarsViewController.swift */; };
 		FBE61298B505B19031D78578 /* CardProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85778784E4E4572E58BF562A /* CardProtocols.swift */; };
 /* End PBXBuildFile section */
@@ -103,6 +104,7 @@
 		E7A3F21D2A777E7C00882680 /* CardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
 		E7A3F2212A78845500882680 /* CardCarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCarCell.swift; sourceTree = "<group>"; };
 		E7A3F2232A78847500882680 /* CardPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPostCell.swift; sourceTree = "<group>"; };
+		E7CEDB192A923CA000AEA3F0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FE04D50C2D3CC5877E6E5B8C /* Card.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Card.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -278,6 +280,7 @@
 		E7A3F1F52A6F9D9400882680 /* business */ = {
 			isa = PBXGroup;
 			children = (
+				E7CEDB182A923C8B00AEA3F0 /* core */,
 				E7A3F1FD2A71121B00882680 /* models */,
 				E7A3F1F62A6F9D9F00882680 /* services */,
 			);
@@ -337,6 +340,14 @@
 				E7A3F2232A78847500882680 /* CardPostCell.swift */,
 			);
 			path = cells;
+			sourceTree = "<group>";
+		};
+		E7CEDB182A923C8B00AEA3F0 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				E7CEDB192A923CA000AEA3F0 /* Constants.swift */,
+			);
+			path = core;
 			sourceTree = "<group>";
 		};
 		EEC603851B13FEAEADF726FA /* ui */ = {
@@ -500,6 +511,7 @@
 				72BC2B5A57FD0CA6B5D276DB /* CarsPresenter.swift in Sources */,
 				21461366F8532032CCD19713 /* CarsInteractor.swift in Sources */,
 				E7A3F1F92A6FAF0F00882680 /* APIService.swift in Sources */,
+				E7CEDB1A2A923CA000AEA3F0 /* Constants.swift in Sources */,
 				29FD3D6603EDBEFE9FA42EB1 /* CarsRouter.swift in Sources */,
 				E7A3F21C2A777D2500882680 /* UserItem.swift in Sources */,
 				E7A3F2102A75437500882680 /* BaseRouter.swift in Sources */,

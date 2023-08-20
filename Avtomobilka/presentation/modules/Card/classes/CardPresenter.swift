@@ -14,6 +14,7 @@ class CardPresenter {
     var router: CardRouterInput!
     var carId: Int!
     var page = 1
+    var recentPostsCount = 0
 }
 
 // MARK:- <CardViewOutput>
@@ -29,22 +30,21 @@ extension CardPresenter: CardViewOutput {
     }
     
     func nextPostItems() {
-        page += 1
-        interactor.fetchPosts(carId: carId, page: page)
+        if recentPostsCount == Constants.Page.itemsCount {
+            page += 1
+            interactor.fetchPosts(carId: carId, page: page)
+        } 
     }
 }
 
 // MARK:- <CardInteractorOutput>
 extension CardPresenter: CardInteractorOutput {
     func updateCard(card: CardItem) {
-        DispatchQueue.main.async { [weak self] in
-            self?.view.updateCard(card: card)
-        }
+        view.updateCard(card: card)
     }
     
     func updatePots(posts: [PostItem]) {
-        DispatchQueue.main.async { [weak self] in
-            self?.view.updatePots(posts: posts)
-        }
+        recentPostsCount = posts.count
+        view.updatePots(posts: posts)
     }
 }

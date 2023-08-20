@@ -17,37 +17,20 @@ protocol NetworkRequestable {
     func carPosts(carId: Int, page: Int) -> AnyPublisher<PostItems, MoyaError>
 }
 
-class NetworkAlamofireSession: Alamofire.Session {
-    static let sharedSession: NetworkAlamofireSession = {
-        let configuration = URLSessionConfiguration.default
-        configuration.httpAdditionalHeaders = HTTPHeaders.default.dictionary
-        configuration.timeoutIntervalForRequest = 10
-        configuration.timeoutIntervalForResource = 10
-        configuration.requestCachePolicy = .useProtocolCachePolicy
-        return NetworkAlamofireSession(configuration: configuration)
-    }()
-}
-
 class NetworkService: NetworkRequestable {
 
     static let shared = NetworkService()
     
-    let provider =  MoyaProvider<APIService>(callbackQueue: DispatchQueue.global(qos: .utility), session: NetworkAlamofireSession.sharedSession)
+    let provider =  MoyaProvider<APIService>()
     
-    private init() {
-        initService()
-    }
-    
-    func initService() {
-        print("Init network service")
-    }
+    private init() {}
     
     func request(target: APIService) -> AnyPublisher<Response, MoyaError> {
         provider.requestPublisher(target).filterSuccessfulStatusCodes()
     }
     
     func cars(page: Int) -> AnyPublisher<[CarItem], MoyaError> {
-        let target: APIService = .cars(items: 10, page: page)
+        let target: APIService = .cars(items: Constants.Page.itemsCount, page: page)
         return request(target: target).map([CarItem].self)
     }
     
@@ -57,7 +40,7 @@ class NetworkService: NetworkRequestable {
     }
     
     func carPosts(carId: Int, page: Int) -> AnyPublisher<PostItems, MoyaError> {
-        let target: APIService = .carPosts(id: carId, items: 10, page: page)
+        let target: APIService = .carPosts(id: carId, items: Constants.Page.itemsCount, page: page)
         return request(target: target).map(PostItems.self)
     }
 }

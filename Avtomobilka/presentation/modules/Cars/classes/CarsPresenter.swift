@@ -13,6 +13,7 @@ class CarsPresenter {
     var interactor: CarsInteractorInput!
     var router: CarsRouterInput!
     var page = 1
+    var recentCarsCount = 0
 }
 
 // MARK:- <CarsViewOutput>
@@ -31,16 +32,17 @@ extension CarsPresenter: CarsViewOutput {
     }
     
     func nextCarItems() {
-        page += 1
-        interactor.carItems(page: page)
+        if recentCarsCount == Constants.Page.itemsCount {
+            page += 1
+            interactor.carItems(page: page)
+        }
     }
 }
 
 // MARK:- <CarsInteractorOutput>
 extension CarsPresenter: CarsInteractorOutput {
     func carItems(items: [CarItem]) {
-        DispatchQueue.main.async {
-            self.view.updateCars(items: items)
-        }
+        recentCarsCount = items.count
+        view.updateCars(items: items)
     }
 }
