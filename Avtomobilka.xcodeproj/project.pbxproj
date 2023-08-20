@@ -30,7 +30,6 @@
 		E7A3F1E72A6F8C9A00882680 /* AvtomobilkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1E62A6F8C9A00882680 /* AvtomobilkaUITests.swift */; };
 		E7A3F1E92A6F8C9A00882680 /* AvtomobilkaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1E82A6F8C9A00882680 /* AvtomobilkaUITestsLaunchTests.swift */; };
 		E7A3F1F92A6FAF0F00882680 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F1F82A6FAF0F00882680 /* APIService.swift */; };
-		E7A3F1FC2A6FB0F600882680 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = E7A3F1FB2A6FB0F600882680 /* Moya */; };
 		E7A3F2052A71176300882680 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F2042A71176300882680 /* NetworkService.swift */; };
 		E7A3F20B2A711CF200882680 /* CarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F20A2A711CF200882680 /* CarItem.swift */; };
 		E7A3F20D2A711D0A00882680 /* PostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F20C2A711D0A00882680 /* PostItem.swift */; };
@@ -42,6 +41,8 @@
 		E7A3F21E2A777E7C00882680 /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F21D2A777E7C00882680 /* CardItem.swift */; };
 		E7A3F2222A78845500882680 /* CardCarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F2212A78845500882680 /* CardCarCell.swift */; };
 		E7A3F2242A78847500882680 /* CardPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3F2232A78847500882680 /* CardPostCell.swift */; };
+		E7CEDB152A92191E00AEA3F0 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = E7CEDB142A92191E00AEA3F0 /* CombineMoya */; };
+		E7CEDB172A92191E00AEA3F0 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = E7CEDB162A92191E00AEA3F0 /* Moya */; };
 		F42FC18045A6025F8C2C14D2 /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6516BE1B3955B4FFA260527 /* CarsViewController.swift */; };
 		FBE61298B505B19031D78578 /* CardProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85778784E4E4572E58BF562A /* CardProtocols.swift */; };
 /* End PBXBuildFile section */
@@ -110,8 +111,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7CEDB152A92191E00AEA3F0 /* CombineMoya in Frameworks */,
 				E7A3F21A2A77468500882680 /* Kingfisher in Frameworks */,
-				E7A3F1FC2A6FB0F600882680 /* Moya in Frameworks */,
+				E7CEDB172A92191E00AEA3F0 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,8 +364,9 @@
 			);
 			name = Avtomobilka;
 			packageProductDependencies = (
-				E7A3F1FB2A6FB0F600882680 /* Moya */,
 				E7A3F2192A77468500882680 /* Kingfisher */,
+				E7CEDB142A92191E00AEA3F0 /* CombineMoya */,
+				E7CEDB162A92191E00AEA3F0 /* Moya */,
 			);
 			productName = Avtomobilka;
 			productReference = E7A3F1C22A6F8C9700882680 /* Avtomobilka.app */;
@@ -438,8 +441,8 @@
 			);
 			mainGroup = E7A3F1B92A6F8C9700882680;
 			packageReferences = (
-				E7A3F1FA2A6FB0F500882680 /* XCRemoteSwiftPackageReference "Moya" */,
 				E7A3F2182A77468400882680 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				E7CEDB132A92191E00AEA3F0 /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			productRefGroup = E7A3F1C32A6F8C9700882680 /* Products */;
 			projectDirPath = "";
@@ -856,14 +859,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E7A3F1FA2A6FB0F500882680 /* XCRemoteSwiftPackageReference "Moya" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Moya/Moya.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 15.0.0;
-			};
-		};
 		E7A3F2182A77468400882680 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
@@ -872,18 +867,31 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		E7CEDB132A92191E00AEA3F0 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E7A3F1FB2A6FB0F600882680 /* Moya */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E7A3F1FA2A6FB0F500882680 /* XCRemoteSwiftPackageReference "Moya" */;
-			productName = Moya;
-		};
 		E7A3F2192A77468500882680 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E7A3F2182A77468400882680 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		E7CEDB142A92191E00AEA3F0 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7CEDB132A92191E00AEA3F0 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		E7CEDB162A92191E00AEA3F0 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7CEDB132A92191E00AEA3F0 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
